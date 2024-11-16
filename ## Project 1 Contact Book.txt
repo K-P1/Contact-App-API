@@ -1,0 +1,29 @@
+## **Project 1: Contact Book**
+
+### Step-by-Step Guide:
+
+1. **Setup the Project:**
+   - Initialize a new project with Django or FastAPI.
+   - Configure the database (SQLite is a good starting point).
+
+2. **Design the Database:**
+   - Identify the main entity: `Contact` (fields: name, phone number, email, address).
+   - Create a database model/schema for the `Contact` entity.
+
+3. **Build the Backend Logic:**
+   - Implement CRUD operations:
+     - **Create:** Add a new contact.
+     - **Read:** Retrieve all contacts or a single contact by ID.
+     - **Update:** Modify contact details.
+     - **Delete:** Remove a contact.
+
+4. **Create the User Interface (Optional for FastAPI):**
+   - **Django:** Use templates to create forms and pages for adding, editing, and displaying contacts.
+   - **FastAPI:** Build a frontend separately or use FastAPI's Swagger UI for testing endpoints.
+
+5. **Implement Search Functionality:**
+   - Add a filter option to search by name or phone number.
+
+6. **Test the Application:**
+   - Test each CRUD operation manually.
+   - Write basic tests to validate functionality.
